@@ -1,0 +1,28 @@
+input[type="submit"][value="Cancel my account"] {
+    @extend .btn !optional;
+    @extend .btn-danger !optional;
+  }
+
+input[type="text"],input[type="email"],input[type="password"] {
+  width: 300px;
+  height: 40px;
+  border-width: 0.2px;
+  border-radius: 2px;
+}
+
+.field{
+  margin-top: 20px;
+}
+
+.actions{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.edit-icon{
+  border-radius: 50% ;
+  width: 90px;
+  height: 90px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
